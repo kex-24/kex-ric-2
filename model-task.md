@@ -3,7 +3,7 @@
 For the second exercise of INDA, you are going to practice modeling objects in Java. You are going to acquaint yourself with the components of a Java class.
 
 ### 💀 Deadline
-This work should be completed before the exercise, on **Friday 15th September**.
+This work should be completed before the next exercise.
 
 ### 👩‍🏫 Instructions
 For instructions on how to do and submit the assignment, please see the
@@ -418,14 +418,3 @@ public class Horse {
 
 ### 🐞 Bugs and errors?
 If you find any inconsistences or errors in this exercise, please open a [New Issue](https://gits-15.sys.kth.se/inda-23/help/issues/new) with the title "Task *x* Error: *summary of error here*". Found bugs will be rewarded by mentions in the acknowledgment section.
-
-### 🙏  Acknowledgment
-This task was designed by                <br>
-[Linus Östlund](mailto:linusost@kth.se)  <br>
-[Sofia Bobadilla](mailto:sofbob@kth.se)  <br>
-[Gabriel Skoglund](mailto:gabsko@kth.se) <br>
-[Arvid Siberov](mailto:asiberov@kth.se)  <br>
-[Alexander Runebou](mailto:alerun@kth.se)<br>
-
-Proofreading & Bug fixes by <br>
-[Mattias Kvist]() <br>
