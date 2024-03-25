@@ -40,3 +40,11 @@ Press the green button "I undestand my workflows, go ahead and enable them" to e
 ![Github actions, enable](img/actions-on.png)
 
 To start generating, open a new issue with a desired theme!
+
+### 6. Fill in survey
+
+After every generation of a new exercise, please fill in this [survey](https://forms.gle/5QGt7ETd5XPrc2GQ6)!
+
+### 7. Final survey
+
+At the end of the session, after you have generated 2-3 exercises, please fill in this final [survey](https://forms.gle/BCBVtXQXbcwFpQ2K7)!
