@@ -1,102 +1,90 @@
-# Lorem Ipsum Task
+# Galaxy Pets: Collect and Train Your Cosmic Companions
 
-For the second exercise of Lorem Ipsum programming, you are going to practice modeling objects in Java. You are going to acquaint yourself with the components of a Java class.
+For this programming assignment in Java, you are stepping into the shoes of a cosmic trainer, embarking on a journey through the universe to collect and train Galaxy Pets. These are mythical creatures with unique abilities and attributes that you'll be modeling in Java.
 
-### Deadline
-This work should be completed before the exercise, on **Friday 15th September**.
+## Deadline
+This assignment is due before the next scheduled class.
 
-### Instructions
-For instructions on how to do and submit the assignment, please see the
-[assignments section of the course instructions](https://loremipsum.com/assignments).
+## Instructions
+For instructions on how to complete and submit this assignment, please refer to the assignments section of the course instructions reachable via [assignments section of our course webpage](https://assignments.example.com).
 
-### Preparation
+## Preparation
 
-- Read and answer all questions in Module 2: [Looking Inside Classes](https://loremipsum.com/module2)
-- Access the OLI material both via the platform or directly at this [webpage](https://loremipsum.com/programming)
+- Complete and understand all questions in Module 2: "Exploring Object-Oriented Programming".
+- Access the OLI material through Canvas or directly via [programming course materials](https://programmingmaterials.example.com).
 
-### Learning Goals
+Note: The OLI material and tasks this year may not perfectly align, so it's okay to read ahead if you did not find everything mentioned.
 
-This week's learning goals include:
-* Designing Java classes
-* Adding instance fields
-* Adding a constructor method
-* Creating *getters* and *setters*
-* Using the dot operator
-* Printing to the terminal
-* Using the `main` method
-* Scope (or *variable shadowing*)
+## Learning Goals
 
-### Troubleshooting Guide
-If you have any questions or problems, follow this procedure: 
+The goals for this week include understanding how to:
+- Design Java classes.
+- Implement fields and methods within a class.
+- Utilize the `main` method for testing.
+- Understand the concept of object encapsulation.
+- Manage object interaction within a Java application.
 
-1. Look at this week's posted issues. Are other students asking about your problem?
-2. If not, post a question yourself by creating a new issue. Add a descriptive title, beginning with "Task x: *summary of problem here*"
-3. Ask a TA in person during the weekly lab. Check your schedule to see when the next lab is.
+## Troubleshooting Guide
 
-We encourage you to discuss with your course friends, but **do not share answers**!
+1. Browse the [posted questions](https://forum.example.com/issues) related to this week's assignment. Are others experiencing the same issue?
+2. If not, create a [New Question](https://forum.example.com/issues/new) with a descriptive title beginning with "Week *x*: *summary of problem*".
+3. Seek out further help at the [weekly help sessions](https://helpsessions.example.com) hosted by our team.
 
-### Assignment
+Collaboration with peers is encouraged, but please avoid sharing exact solutions.
 
-In the land of Lorem Ipsum, there exists a mythical creature called *Loremipsumon*. Your task at hand is to model these mythical creatures in Java! Here is a visualization to inspire your imagination:
+## Assignment Details
 
-```
-![Loremipsumons](images/Loremipsumons.png)
-```
+Your journey through the galactic frontier begins with the creation of unique Galaxy Pets crafted from the essence of cosmic phenomena. Dive into this universe by modeling these creatures in Java. Let your imagination run wild; perhaps a Starlion with the roar of a collapsing star, or a Nebulupi, a wolf made from the gas of a nebulous cloud.
 
-Next, let's move on to creating *Loremipsumon* objects in Java.
+### Task 1: Class Creation
 
-#### Exercise 2.0 - Getting Started
+Start by creating a file named `GalaxyPet.java` inside the `src` directory. Declare the GalaxyPet class within this file.
 
-Create a new Java file called `Loremipsumon.java` in the `src` folder. Define the class `Loremipsumon` within it. Add a main method and delve into creating your very first Loremipsumon object. 
+### Task 2: Defining Properties
 
-In the main method, create variables for the following attributes of a Loremipsumon: 
-- `String` name 
-- `int` healthPoints (HP) 
-- `int` power 
-- `int` defense 
-- `boolean` fainted 
+Our Galaxy Pets need characteristics. Define the following fields within the GalaxyPet class, without assigning any initial values:
 
-#### Exercise 2.1 - More Creatures
+- String name
+- int energyLevel
+- int cosmicPower
+- int speed
+- boolean asleep
 
-Expand your knowledge by creating two more Loremipsumon objects using the same approach as in Exercise 2.0. 
+### Task 3: Spawning Galaxy Pets
 
-#### Exercise 2.2 - Fields
+In the `main` method of your GalaxyPet class, create and instantiate a "Starlion" with initial values for its characteristics. Use the dot operator to set these attributes directly for now.
 
-Implement fields for the Loremipsumon class with the attributes mentioned in Exercise 2.0. Test modifying their values directly using the dot operator on a Loremipsumon object.
+### Task 4: Encapsulation with Getters and Setters
 
-#### Exercise 2.3 - Getters and Setters
+To encapsulate the inner workings of our Galaxy Pets, change the access modifiers of your fields to `private`. Then, implement getters and setters for each property.
 
-Create getter and setter methods for all fields in the Loremipsumon class. Use these methods to access and modify the values of the Loremipsumon objects.
+### Task 5: Constructing with Constructors
 
-#### Exercise 2.4 - Constructor
+Implement a constructor for the GalaxyPet class that allows setting all characteristics upon instantiation. Create a second pet, "Nebulupi", using this constructor.
 
-Introduce a constructor method for the Loremipsumon class. Create a few Loremipsumon objects using the constructor. Use the constructor method to set initial values for the Loremipsumon attributes.
+### Task 6: Display Information
 
-#### Exercise 2.5 - Printing Info
+Create a method named `displayInfo` within the GalaxyPet class that prints out all information about the pet to the console.
 
-Implement a method called `printInfo()` in the Loremipsumon class to display all information about a Loremipsumon object in a structured manner.
+### Task 7: The Cosmic Challenge
 
-#### Exercise 2.6 - Friendly Interaction
+Galaxy Pets can challenge each other to cosmic duels. Implement a method named `challenge` where one pet can challenge another. The outcome will determine which pet gains cosmic power. Incorporate simple logic based on your chosen attributes.
 
-Add a method called `interact()` in the Loremipsumon class to simulate a friendly interaction between Loremipsumons. Print the interaction messages to the console.
+### Task 8: Understanding Scope and Shadowing
 
-#### Exercise 2.7 - Exploring Encapsulation
+Review examples of scope and variable shadowing provided in the reading materials. Be prepared to adjust your implementation if necessary, focusing on proper usage of the `this` keyword.
 
-Dig deeper into encapsulation by setting appropriate access modifiers for the fields of the Loremipsumon class. Modify the methods and variables to adhere to encapsulation principles.
+## Final Checklist
 
-### Checklist 
-- [ ] Create three Loremipsumon objects directly in the main method and print their information to the console.
-- [ ] Define and use fields for the Loremipsumon class to store information about each creature.
-- [ ] Implement getters and setters for each field to access and modify the Loremipsumon attributes.
-- [ ] Create a constructor method for the Loremipsumon class and use it to initialize multiple objects.
-- [ ] Develop a `printInfo()` method to display all information of a Loremipsumon object.
-- [ ] Create an `interact()` method for friendly interactions between Loremipsumons.
-- [ ] Apply encapsulation principles with appropriate access modifiers for the class fields and methods.
+- [ ] Created and developed the GalaxyPet class with fields and methods.
+- [ ] Utilized getters and setters for encapsulation.
+- [ ] Implemented constructors for easy object instantiation.
+- [ ] Developed a method displaying a pet's info.
+- [ ] Enabled Galaxy Pets to challenge each other.
 
-### Bugs and Errors
-If you find any inconsistencies or errors in this exercise, please open a [New Issue](https://loremipsum.com/issues/new) with the title "Task x Error: summary of error here". Found bugs will be acknowledged in the acknowledgment section.
+## Bugs and Errors?
 
-### Acknowledgment
-This task was customized for you by your programming guide for Lorem Ipsum exercises.
+If you encounter any inconsistencies or errors with this assignment, please report them by creating a [New Issue](https://forum.example.com/issues/new) with the title "Week *x* Error: *summary of error here*". Contributors identifying bugs will be acknowledged.
 
-Proofreading & Bug fixes by Lorem Ipsum Lorem and Lorem Ipsum Ipsum.
+
+This personalized task should help the student understand the same core programming concepts as the model task, framed around an engaging theme of collecting and training cosmic creatures.
